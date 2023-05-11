@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #eddfee;
 }
-
+  
 .header {
     display: flex;
     background-color: #1a0225;
@@ -29,17 +29,28 @@ width: 200px;
 
 }
 
-.hero {
-    background-color: #2a0f3a;
+.hero-container {
     display: flex;
-    padding: 125px 200px;
-    gap: 32px;
+    background-color: #2a0f3a;
 }
 
 .lefthero {
     font-size: 18px;
     color: #eddfee;
+    background-color: #2a0f3a;
+    padding: 75px 0px 125px 200px;
+    gap: 32px;
     flex: 1;
+}
+
+.righthero {
+    display: flex;
+    color: #e5e7eb;
+    border-radius: 20px;
+    justify-content:center;
+    align-items: center;
+    flex: 1;
+    padding: 20px 200px 20px 0;
 }
 
 .lefthero h1 {
@@ -48,19 +59,11 @@ width: 200px;
     color: #eddfee;
 }
 
-.righthero {
-    display: flex;
-    background-color: #727785;
-    color: #e5e7eb;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    border-radius: 20px;
-}
+
 
 .models {
-    height: auto;
-    width: 500px;
+    width:75%;
+    height:auto;
     border-radius: inherit;
 }
 
