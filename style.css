@@ -2,22 +2,25 @@ body {
     font-family: 'Roboto', sans-serif;  
     margin: 0;
     padding: 0;
+    background-color: #eddfee;
 }
 
 .header {
     display: flex;
-    background-color: #1f2937;
+    background-color: #1a0225;
     padding: 16px;
     justify-content: space-between;
     padding: 16px 200px;
 }
 
-.left {
-    color: #f9faf8;
-    font-size: 24px;
-    display: flex;
-    align-items: center;
-    font-weight: 900;
+.logo {
+height: auto;
+width: 200px;
+}
+  
+.fb, .insta, .etsy {
+    width: 50px;
+    height: auto;
 }
 
 .right {
@@ -27,7 +30,7 @@ body {
 }
 
 .hero {
-    background-color: #1f2937;
+    background-color: #2a0f3a;
     display: flex;
     padding: 125px 200px;
     gap: 32px;
@@ -35,14 +38,14 @@ body {
 
 .lefthero {
     font-size: 18px;
-    color: #e5e7eb;
+    color: #eddfee;
     flex: 1;
 }
 
 .lefthero h1 {
     font-size: 48px;
     font-weight: 900;
-    color: #f9faf8;
+    color: #eddfee;
 }
 
 .righthero {
@@ -52,6 +55,13 @@ body {
     justify-content: center;
     align-items: center;
     flex: 1;
+    border-radius: 20px;
+}
+
+.models {
+    height: auto;
+    width: 500px;
+    border-radius: inherit;
 }
 
 .info {
@@ -60,12 +70,13 @@ body {
     display: flex;
     align-items: center; 
     flex-direction: column;
+    background-color: #eddfee;
 }
 
 .info h1 {
     font-size: 36px;
     font-weight: 900;
-    color: #1f2937
+    color: #2a0f3a
 }
 
 .info-container {
@@ -75,11 +86,15 @@ body {
 }
 
 .info-pics {
-    border: solid #3882f6 4px;
-    flex: 1 1 auto;
+    border: solid #d335d8 4px;
     height: 150px;
     width: 150px;
     border-radius: 10px;
+}
+
+.item {
+    height: 150px;
+    width: 150px;
 }
 
 .picbox {
@@ -88,13 +103,20 @@ body {
     align-items: center;
 }
 
+.info-container .star {
+    color: rgb(255, 255, 0);
+    text-shadow: 0px 0px 5px #000000;
+    
+
+}
+
 .info-container p {
     text-align: center;
     color: #727272;
 }
 
 .quote {
-    background-color: #e5e7eb;
+    background-color: #d9a9e6;
     color: #1f2937;
     font-size: 36px;
     font-style: italic;
@@ -116,7 +138,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882f6;
+    background-color: #d335d8;
     padding: 50px 100px;
     margin: 100px 200px;
     border-radius: 8px;
@@ -139,7 +161,7 @@ body {
 }
 
 .footer {
-    background-color: #1f2937;
+    background-color: #2a0f3a;
     color: #e5e7eb;
     padding: 40px;
     display: flex;
@@ -149,7 +171,7 @@ body {
 }
 
 button {
-    background-color: #3882f6;
+    background-color: #d335d8;
     color: white;
     border-radius: 8px;
     border: 0px;
