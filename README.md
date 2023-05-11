@@ -1,1 +1,1 @@
-# odin-landing
+This is a Odin Project assignment where I will recreate a website from the provided screenshots. Upon completion, I will have demonstrated my HTML and CSS capabilities.
