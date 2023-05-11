@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 
-.header{
+.header {
     display: flex;
     background-color: #1f2937;
     padding: 16px;
@@ -26,6 +26,82 @@ body {
 
 }
 
+.hero {
+    background-color: #1f2937;
+    display: flex;
+    padding: 125px 200px;
+    gap: 32px;
+}
+
+.lefthero {
+    font-size: 18px;
+    color: #e5e7eb;
+    flex: 1;
+}
+
+.lefthero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.righthero {
+    display: flex;
+    background-color: #727785;
+    color: #e5e7eb;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.info {
+    padding: 25px 300px 75px;
+    gap: 25px;
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+}
+
+.info h1 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937
+}
+
+.info-container {
+    display: flex;
+    gap: 30px;
+    
+}
+
+.info-pics {
+    border: solid #3882f6 4px;
+    flex: 1 1 auto;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.picbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-container p {
+    text-align: center;
+    color: #727272;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border: 0px;
+    font-weight: 900;
+    font-size: 15px;
+}
+
 ul {
     display: flex;
     align-items: center;
@@ -35,8 +111,14 @@ ul {
     list-style-type: none;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
+    
 }
 
+button a {
+    padding: 8px 25px;
+    display: inline-block;
+
+}
