@@ -206,6 +206,7 @@ a {
 
 button a {
     padding: 8px 25px;
-    display: inline-block;
-
+    display: flex;
+border-radius: 8px;
+justify-content: center;
 }
